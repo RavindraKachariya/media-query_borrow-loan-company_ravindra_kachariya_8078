@@ -1,0 +1,347 @@
+@media (max-width: 992px) {
+    .head-line {
+        font-size: 11px;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 0 30px;
+    }
+
+    .left {
+        gap: 20px;
+    }
+
+    .navbar-main {
+        margin: 0 30px;
+    }
+
+    .nav-links ul {
+        gap: 20px;
+    }
+
+    .main-heading {
+        font-size: 42px;
+    }
+
+    .rate {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .overlay {
+        padding-left: 40px;
+    }
+
+    .loan-container {
+        flex-wrap: wrap;
+    }
+
+    .loan-box {
+        flex: 1 1 50%;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+        box-sizing: border-box;
+    }
+
+    .loan-box:nth-child(2n) {
+        border-bottom: none;
+    }
+
+    .loan-cards {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .loan-card {
+        flex: 1 1 calc(50% - 40px);
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .steps {
+        gap: 20px;
+    }
+
+    .step-box {
+        width: 260px;
+        padding: 25px 18px;
+    }
+
+    .step-box h3 {
+        font-size: 18px;
+    }
+
+    .step-box p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .head-line {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 11px;
+    }
+
+    .left {
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .navbar-main {
+        margin: 0 30px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-heading {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .rate {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .overlay {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        top: auto;
+        bottom: 20px;
+        transform: none;
+    }
+
+    .arrow-left {
+        left: 20px;
+    }
+
+    .arrow-right {
+        right: 20px;
+    }
+
+    .loan-box {
+        flex: 1 1 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .loan-box:last-child {
+        border-bottom: none;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .loan-card {
+        flex: 1 1 100%;
+    }
+
+    .loan-cards {
+        gap: 20px;
+    }
+
+    .arrrow {
+        gap: 15px;
+    }
+
+    .p-arrow {
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step-box {
+        width: 90%;
+    }
+
+    .start-button a {
+        padding: 10px 24px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head-line {
+        font-size: 10px;
+        align-items: flex-start;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .left p,
+    .right p {
+        font-size: 10px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .menu-toggle {
+        font-size: 20px;
+    }
+
+    .main-heading {
+        font-size: 26px;
+    }
+
+    .rate {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .arrow-left {
+        left: 10px;
+    }
+
+    .arrow-right {
+        right: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .loan-box {
+        align-items: flex-start;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .loan-box h3 {
+        font-size: 18px;
+    }
+
+    .loan-box p {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .loan-card h3 {
+        font-size: 18px;
+    }
+
+    .loan-card p {
+        font-size: 14px;
+    }
+
+    .loan-card a {
+        font-size: 13px;
+    }
+
+    .p-arrow {
+        width: 34px;
+        height: 34px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .step-box {
+        padding: 20px 15px;
+    }
+
+    .step-box h3 {
+        font-size: 16px;
+    }
+
+    .step-box p {
+        font-size: 14px;
+    }
+
+    .step-number {
+        width: 36px;
+        height: 36px;
+        line-height: 34px;
+        font-size: 16px;
+    }
+
+    .start-button a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+}
