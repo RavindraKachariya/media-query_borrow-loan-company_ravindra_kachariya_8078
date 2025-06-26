@@ -84,6 +84,68 @@
     .step-box p {
         font-size: 15px;
     }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .choose-card {
+        width: 260px;
+        padding: 25px 20px;
+    }
+
+    .choose-card h3 {
+        font-size: 18px;
+    }
+
+    .choose-card p {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-card {
+        max-width: 280px;
+        padding: 25px 20px;
+    }
+
+    .testimonial-text {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .news-card {
+        max-width: 280px;
+    }
+
+    .news-content h3 {
+        font-size: 17px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -212,6 +274,79 @@
         padding: 10px 24px;
         font-size: 15px;
     }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .choose-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .choose-card {
+        width: 90%;
+    }
+
+    .card-button {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .testimonial-text {
+        font-size: 15px;
+    }
+
+    .user-info h4 {
+        font-size: 15px;
+    }
+
+    .user-info span {
+        font-size: 13px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .news-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-card {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .news-content {
+        padding: 18px;
+    }
+
+    .news-content a {
+        font-size: 13px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -344,4 +479,82 @@
         padding: 10px 20px;
     }
 
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .choose-card h3 {
+        font-size: 16px;
+    }
+
+    .choose-card p {
+        font-size: 14px;
+    }
+
+    .card-button {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .testimonial-card {
+        padding: 20px 15px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+    }
+
+    .user-info img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .user-info h4 {
+        font-size: 14px;
+    }
+
+    .user-info span {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .news-content h3 {
+        font-size: 16px;
+    }
+
+    .meta {
+        font-size: 12px;
+    }
+
+    .desc {
+        font-size: 13px;
+    }
+
+    .news-content a {
+        font-size: 12.5px;
+    }
 }
